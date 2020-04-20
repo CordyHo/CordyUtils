@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.github.dcendents.android-maven'
+//noinspection GroovyUnusedAssignment
+group = 'com.github.CordyHo'
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        minSdkVersion 21
+    }
+}
+
+dependencies {
+    api 'androidx.appcompat:appcompat:1.1.0'
+    api 'com.google.android.material:material:1.1.0'
+    api "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+    api 'androidx.preference:preference:1.1.1'
+    api 'com.android.volley:volley:1.1.1'
+    api 'com.github.bumptech.glide:glide:4.11.0'
+    api 'com.google.code.gson:gson:2.8.6'
+    kapt 'com.github.bumptech.glide:compiler:4.11.0'
+}
