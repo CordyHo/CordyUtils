@@ -17,7 +17,7 @@ android {
 dependencies {
     api 'androidx.appcompat:appcompat:1.1.0'
     api 'com.google.android.material:material:1.1.0'
-    api "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+    api "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
     api 'androidx.preference:preference:1.1.1'
     api 'com.android.volley:volley:1.1.1'
     api 'com.github.bumptech.glide:glide:4.11.0'
